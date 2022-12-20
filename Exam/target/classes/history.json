@@ -1,0 +1,51 @@
+[
+  {
+    "messages": [
+      "Hi",
+      "hello",
+      "bye"
+    ],
+    "firstUser": {
+      "phoneNumber": "+998999999999",
+      "contacts": [
+        "+998977170076"
+      ]
+    },
+    "secondUser": {
+      "phoneNumber": "+998977170076",
+      "contacts": []
+    }
+  },
+  {
+    "messages": [
+      "Hello",
+      "Hi"
+    ],
+    "firstUser": {
+      "phoneNumber": "+998977170076",
+      "contacts": [
+        "+998999999999"
+      ]
+    },
+    "secondUser": {
+      "phoneNumber": "+998999999999",
+      "contacts": []
+    }
+  },
+  {
+    "messages": [
+      "Behruz",
+      "Hi"
+    ],
+    "firstUser": {
+      "phoneNumber": "+998999999999",
+      "contacts": [
+        "+998977170076"
+      ]
+    },
+    "secondUser": {
+      "phoneNumber": "+998977170076",
+      "contacts": []
+    }
+  }
+]
