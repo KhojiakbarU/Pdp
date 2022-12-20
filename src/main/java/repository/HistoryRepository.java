@@ -19,7 +19,7 @@ public class HistoryRepository {
 
     public void writeHistory(List<History> histories) {
         new Thread(() -> {
-            try {                BufferedWriter writer = new BufferedWriter(new FileWriter(util.historyJsonUrl));
+            try {  BufferedWriter writer = new BufferedWriter(new FileWriter(util.historyJsonUrl));
                 writer.write(util.gson.toJson(histories));
                 writer.close();
             } catch (IOException e) {

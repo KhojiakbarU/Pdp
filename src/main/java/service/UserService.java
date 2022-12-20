@@ -63,10 +63,10 @@ public class UserService {
             history = history1;
         }
         List<String> messages;
-        if (history.getMessages() == null) {
+        if (history.getSms() == null) {
             messages = new ArrayList<>();
         } else {
-            messages = history.getMessages();
+            messages = history.getSms();
         }
         while (true) {
             System.out.println("Enter message");
@@ -76,7 +76,7 @@ public class UserService {
             }
             messages.add(message);
         }
-        history.setMessages(messages);
+        history.setSms(messages);
         history.setFirstUser(user);
         history.setSecondUser(secondUser);
         for (History perHistory : histories) {
@@ -106,7 +106,7 @@ public class UserService {
             System.out.println("History is empty");
             return;
         }
-        for (String message : history.getMessages()) {
+        for (String message : history.getSms()) {
             System.out.println(message);
         }
     }
